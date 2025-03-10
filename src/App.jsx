@@ -27,7 +27,7 @@ function App() {
       </section>
 
       <motion.div
-        className="w-[350px] mx-auto p-8 bg-gray-100 rounded-3xl text-gray-900 shadow-2xl max-w-md"
+        className="md:w-[350px] w-[300px] mx-auto p-8 bg-gray-100 rounded-3xl text-gray-900 shadow-2xl max-w-md"
         initial={{ opacity: 0, y: 20, rotateX: 10 }}
         animate={{ opacity: 1, y: 0, rotateX: 0 }}
         transition={{ duration: 1 }}
@@ -39,18 +39,27 @@ function App() {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full text-center py-3 rounded-md font-semibold text-white duration-150 hover:brightness-90 transition-all"
+              className="w-full text-center h-[45px] rounded-md font-semibold duration-150 hover:brightness-90 transition-all flex items-center overflow-hidden"
               style={{
                 backgroundColor: link.color,
                 boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2)',
               }}
-              
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: index * 0.3 }}
             >
-              {link.label}
-              <i className={`ml-5 ${link.icon}`} />
+              <div
+                className="w-[50px] h-[45px] bg-gray-200 flex items-center justify-center"
+                style={{
+                  boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2)',
+                }}
+              >
+                <i
+                  className={`${link.icon} text-2xl`}
+                  style={{ color: link.color }}
+                />
+              </div>
+              <span className="flex-1 text-white">{link.label}</span>
             </motion.a>
           ))}
         </div>
