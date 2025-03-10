@@ -39,17 +39,12 @@ function App() {
               href={link.url}
               target="_blank"
               rel="noopener noreferrer"
-              className="block w-full text-center py-3 rounded-md font-semibold text-white duration-150"
+              className="block w-full text-center py-3 rounded-md font-semibold text-white duration-150 hover:brightness-90 transition-all"
               style={{
                 backgroundColor: link.color,
                 boxShadow: '0px 10px 20px rgba(0, 0, 0, 0.2)',
               }}
-              whileHover={{
-                scale: 1.05,
-                rotateX: 5,
-                rotateY: 5,
-              }}
-              whileTap={{ scale: 0.95 }}
+              
               initial={{ opacity: 0, y: 10 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: index * 0.3 }}
