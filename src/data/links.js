@@ -19,7 +19,7 @@ const links = [
   },
   {
     label: 'Instagram',
-    url: 'https://instagram.com/mchioditech',
+    url: 'https://instagram.com/mchiodidev',
     color:"#E1306C",
     icon: "fab fa-instagram"
   },
