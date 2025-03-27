@@ -1,5 +1,17 @@
 const links = [
   {
+    label: 'YouTube',
+    url: 'https://www.youtube.com/@MChiodiDev',
+    color:"#c4302b",
+    icon: "fab fa-youtube"
+  },
+  {
+    label: 'Tiktok',
+    url: 'https://www.tiktok.com/@mchiodidev',
+    color:"#000",
+    icon: "fab fa-tiktok"
+  },
+  {
     label: 'Portfólio',
     url: 'https://matheuschiodi.github.io/Portfolio',
     color:"#FF5555",
@@ -23,12 +35,7 @@ const links = [
     color:"#E1306C",
     icon: "fab fa-instagram"
   },
-  {
-    label: 'YouTube',
-    url: 'https://www.youtube.com/@MChiodiDev',
-    color:"#c4302b",
-    icon: "fab fa-youtube"
-  },
+  
 ];
 
 export default links;
