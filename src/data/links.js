@@ -1,41 +1,34 @@
-const links = [
-  {
-    label: 'YouTube',
-    url: 'https://www.youtube.com/@MChiodiDev',
-    color:"#c4302b",
-    icon: "fab fa-youtube"
-  },
-  {
-    label: 'Tiktok',
-    url: 'https://www.tiktok.com/@mchiodidev',
-    color:"#000",
-    icon: "fab fa-tiktok"
-  },
-  {
-    label: 'Portfólio',
-    url: 'https://matheuschiodi.github.io/Portfolio',
-    color:"#FF5555",
-    icon: "fas fa-globe"
-  },
-  {
-    label: 'LinkedIn',
-    url: 'https://linkedin.com/in/matheus-chiodi',
-    color:"#2874C9",
-    icon: "fab fa-linkedin"
-  },
-  {
-    label: 'GitHub',
-    url: 'https://github.com/MatheusChiodi',
-    color:"#000",
-    icon: "fab fa-github"
-  },
-  {
-    label: 'Instagram',
-    url: 'https://instagram.com/mchiodidev',
-    color:"#E1306C",
-    icon: "fab fa-instagram"
-  },
-  
-];
+import { Youtube, Github, Instagram, Globe, Linkedin } from 'lucide-react';
 
-export default links;
+export const links = [
+  {
+    title: 'YouTube',
+    url: 'https://youtube.com/@MChiodiDev',
+    icon: Youtube,
+    color: 'text-red-600',
+  },
+  {
+    title: 'Instagram',
+    url: 'https://www.instagram.com/mchiodidev',
+    icon: Instagram,
+    color: 'text-pink-500',
+  },
+  {
+    title: 'LinkedIn',
+    url: 'https://www.linkedin.com/in/matheus-chiodi/',
+    icon: Linkedin,
+    color: 'text-blue-700',
+  },
+  {
+    title: 'GitHub',
+    url: 'https://github.com/MatheusChiodi',
+    icon: Github,
+    color: 'text-zinc-800 dark:text-white',
+  },
+  {
+    title: 'Portfólio',
+    url: 'https://matheuschiodi.github.io/Portfolio/',
+    icon: Globe,
+    color: 'text-blue-600',
+  },
+];
