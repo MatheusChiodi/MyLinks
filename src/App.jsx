@@ -66,7 +66,7 @@ export default function App() {
         <div className="w-full h-full bg-[radial-gradient(circle,_rgba(255,255,255,0.08)_1px,_transparent_1px)] bg-[length:18px_18px] animate-pulse"></div>
       </div>
 
-      <div className="mb-8 text-center w-[80%] mx-auto">
+      <div className="mb-8 text-center w-[90%] md:w-[50%] mx-auto">
         <About />
 
         <div className="absolute top-6 right-6">
