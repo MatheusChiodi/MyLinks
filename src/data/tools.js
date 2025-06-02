@@ -35,5 +35,6 @@ export const tools = [
     description: 'Plataforma de compartilhamento de conhecimento.',
     tags: ['Knowledge'],
     link: 'https://knowledge-hub-matheuschiodis-projects.vercel.app/',
+    preview: 'https://matheuschiodi.github.io/Portfolio/projects/knowledgehub.png',
   }
 ];
