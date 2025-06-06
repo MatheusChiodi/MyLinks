@@ -1,16 +1,4 @@
 import ThemeToggle from './components/ThemeToggle';
-import {
-  Youtube,
-  Github,
-  Instagram,
-  Globe,
-  ArrowUp,
-  Mail,
-  Filter,
-  X,
-  Star,
-  StarOff,
-} from 'lucide-react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { useEffect, useState } from 'react';
 import Loading from './pages/Loading';
@@ -20,7 +8,7 @@ import Filters from './components/Filters';
 import Tools from './components/Tools';
 import Modal from './components/Modal';
 import TopScrollButton from './components/TopScrollButton';
-
+import ShareButton from './components/ShareButton';
 import { links } from './data/links';
 import { tools } from './data/tools';
 
@@ -71,6 +59,10 @@ export default function App() {
 
         <div className="absolute top-6 right-6">
           <ThemeToggle />
+        </div>
+
+        <div className="absolute top-6 left-6">
+          <ShareButton />
         </div>
 
         <Links links={links} />

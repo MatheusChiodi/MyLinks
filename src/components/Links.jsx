@@ -10,7 +10,7 @@ export default function Links({ links }) {
     >
       <h2 className="text-xl font-bold mb-4">🌐 Meus Links</h2>
       <div className="grid gap-4 w-full mx-auto">
-        {links.map(({ title, url, icon: Icon, color }) => (
+        {links.map(({ title, url, icon, color }) => (
           <motion.a
             key={title}
             href={url}
@@ -21,10 +21,7 @@ export default function Links({ links }) {
             whileTap={{ scale: 0.97 }}
           >
             <div className="bg-gray-200 dark:bg-zinc-600 h-[60px] w-[60px] rounded-l-xl flex items-center justify-center">
-              <Icon
-                size={35}
-                className={`${color} group-hover:rotate-12 transition-transform`}
-              />
+              <ion-icon name={icon} className={`${color} text-[30px] group-hover:rotate-12 transition-transform`}></ion-icon>
             </div>
 
             <span className="font-semibold text-base group-hover:underline underline-offset-4 ps-5 drop-shadow-2xl ">
