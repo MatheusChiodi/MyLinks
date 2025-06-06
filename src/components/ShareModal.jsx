@@ -54,7 +54,7 @@ export default function ShareModal({ isOpen, onClose }) {
         ariaLabel: 'Compartilhar no LinkedIn',
       },
       {
-        name: 'Copiar Link',
+        name: 'Copiar',
         icon: <Link2 size={24} />,
         onClick: handleCopyLink,
         color: 'bg-emerald-500 hover:bg-emerald-600',
