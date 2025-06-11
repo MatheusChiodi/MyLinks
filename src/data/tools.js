@@ -36,5 +36,13 @@ export const tools = [
     tags: ['Knowledge'],
     link: 'https://knowledge-hub-matheuschiodis-projects.vercel.app/',
     preview: 'https://matheuschiodi.github.io/Portfolio/projects/knowledgehub.png',
-  }
+  },
+  {
+    name: 'MChiodi Focus',
+    description: 'Site para ajudar a manter o foco e produtividade.',
+    tags: ['Tools'],
+    link: 'https://mchiodi-focus.vercel.app/',
+    preview:
+      'https://matheuschiodi.github.io/Portfolio/projects/mchiodi-focus.png',
+  },
 ];
