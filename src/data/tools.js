@@ -45,4 +45,11 @@ export const tools = [
     preview:
       'https://matheuschiodi.github.io/Portfolio/projects/mchiodi-focus.png',
   },
+  {
+    name: 'MChiodi GuitarTuner',
+    description: 'Aplicativo de afinação de guitarra online.',
+    tags: ['Tools'],
+    link: 'https://matheuschiodi.github.io/MChiodi-GuitarTuner/',
+    preview: 'https://matheuschiodi.github.io/Portfolio/projects/guitartuner.png',
+  }
 ];
