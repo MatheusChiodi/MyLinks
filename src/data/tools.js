@@ -51,5 +51,12 @@ export const tools = [
     tags: ['Tools'],
     link: 'https://matheuschiodi.github.io/MChiodi-GuitarTuner/',
     preview: 'https://matheuschiodi.github.io/Portfolio/projects/guitartuner.png',
-  }
+  },
+  {
+    name: 'MChiodi HelpCss',
+    description: 'Aprenda CSS com exemplos visuais e práticos',
+    tags: ['Knowledge'],
+    link: 'https://mchiodi-helpcss.vercel.app/',
+    preview: 'https://matheuschiodi.github.io/Portfolio/projects/helpcss.png',
+  },
 ];
