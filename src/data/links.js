@@ -31,7 +31,7 @@ export const links = [
   },
   {
     title: 'Portfólio',
-    url: 'https://matheuschiodi.github.io/Portfolio/',
+    url: 'https://mchiodi.vercel.app/',
     icon: 'globe-outline',
     color: 'text-blue-600',
   },
